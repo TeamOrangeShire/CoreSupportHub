@@ -6225,7 +6225,7 @@ textarea.textarea-lg {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 10px;
-	background-image: url(../images/cs_icon3.png);
+	/* background-image: url(../images/cs_icon3.png); */
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: contain;
