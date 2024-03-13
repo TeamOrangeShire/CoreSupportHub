@@ -125,15 +125,33 @@
           align-items: center;
           justify-content: center;
           text-align: center;
+          border: 2px solid #c7ae6a; /* Add border here */
+          box-sizing: border-box; 
+          padding: 30px;
+          /* Ensure border doesn't increase element size */
         }
       
-       
+        .box-contacts-decor {
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff; /* Ensure the front face covers the image */
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      
+        .box-contacts-decor img {
+          width: 40%; /* Adjust the size as needed */
+          display: block; /* Ensure it's a block-level element */
+          margin: auto; /* Center the image horizontally */
+        }
       
         /* Additional styling for the content on the back */
         .box-contacts-back p {
           margin: 0;
         }
       </style>
+      
       
       <!-- Contact information-->
       <div style="visibility: false;" id="services"></div>
