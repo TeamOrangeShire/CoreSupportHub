@@ -14,9 +14,15 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/animation.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+    <style>
+      .boldText{
+        font-weight: bold;
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
-    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="../../images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
     <div class="preloader">
       <div class="preloader-body">
         <div class="cssload-container"><span></span><span></span><span></span><span></span>
@@ -66,8 +72,18 @@
             </nav>
           </div>
         </header>
-      </div>
 
+        
+          <!-- Swiper Pagination-->
+          <div class="swiper-pagination__module">
+            <div class="swiper-pagination__fraction"><span class="swiper-pagination__fraction-index">00</span><span class="swiper-pagination__fraction-divider">/</span><span class="swiper-pagination__fraction-count">00</span></div>
+            <div class="swiper-pagination__divider"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+
+      </div>
+ 
       <!-- Cta-->
       <section class="section section-fluid bg-default" style="height: 650px;">
         <div class="parallax-container" data-parallax-img="../../images/cs_asset.jpg" style="height: 650px;">
@@ -77,168 +93,142 @@
                 <div class="col-sm-7">
                   <h3 class="wow fadeInLeft" style="font-size: 50px;">Business Process Outsourcing</h3>
                   <p style="font-size: 15px; width: 60rem;">Business process permeates the entire organization, from back-office operations to front office and customer facing functions to support functions. Delivery of services to customers entail business processes and in more complex organizations, complex processes integrate the entire organization. A small defect in one of the many processes can significantly reduce efficiency of service and product delivery. In some cases, defects can cause significant loss of revenue and increased cost of poor quality. One of the more common customer dissatisfactions is having an inefficient business process which causes customer churn.</p>
-                  </p>
                   <div class="group-sm group-middle group justify-content-end"><a class="button button-white-outline button-ujarak" href="#">Learn More</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </section><br>
 
-      <!-- content start -->
-
-
-
-
-      <!-- content end -->
-      <!-- Meet The Team-->
-     
-      <style>
-        .col-sm-8 {
-          perspective: 1000px;
-        }
-      
-        .box-contacts {
-          width: 100%;
-          height: 100%;
-          position: relative;
-          transform-style: preserve-3d;
-          transition: transform 0.8s;
-        }
-      
-        .col-sm-8:hover .box-contacts {
-          transform: rotateY(180deg);
-        }
-      
-        .box-contacts-body, .box-contacts-back {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          backface-visibility: hidden;
-        }
-      
-        .box-contacts-back {
-          transform: rotateY(180deg);
-          background-color: #f0f0f0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-        }
-
-        .boldText{
-        font-weight: bold;
-        font-size: 18px;
-      }
-      
-       
-      
-        /* Additional styling for the content on the back */
-        .box-contacts-back p {
-          margin: 0;
-        }
-      </style>
       <!-- Contact information-->
       <section class="section section-sm bg-default">
+        <h2>What our Customer Service Provide</h2><br>
         <div class="container">
-          <h2>What our Customer Service Provide</h2>
           <div class="row row-30 justify-content-center">
-            
             <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
+              <article class="box-contacts" style="min-height: 290px;">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
                   <div class="box-contacts-decor"></div>
                   <p class="box-contacts-link"><a href="tel:#">Customer Service</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="customer service image">
+                 
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
+              <article class="box-contacts" style="min-height: 290px;">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <div class="box-contacts-icon fa-brands fa-linkedin"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Sales and Marketing</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="sales & marketing image">
+                  <p class="box-contacts-link"><a href="#">Sales and Marketing</a></p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
+              <article class="box-contacts" style="min-height: 290px;">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Virtual Assistants</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="virtual assistants image">
+                  <p class="box-contacts-link"><a href="mailto:#">Virtual Assistants</a></p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
+              <article class="box-contacts" style="min-height: 290px;">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Back Office Processing</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="back office processing image">
+                  <p class="box-contacts-link"><a href="mailto:#">Back Office Processing</a></p>
                 </div>
               </article>
             </div>
-            <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Accounting<br>and Bookkeeping</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="accounting and bookkeeping image">
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Recruitment</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="recruitment image">
-                </div>
-              </article>
-            </div>
-            <div class="col-sm-8 col-md-6 col-lg-3">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Social Media<br>Content Management</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <img src="" alt="SMCM image">
-                </div>
-              </article>
-            </div>
-            
           </div>
           <!-- grid row  -->
-          
+          <div class="row row-30 justify-content-center" style="margin-top: 2rem;">
+            <div class="col-sm-8 col-md-6 col-lg-3">
+              <article class="box-contacts" style="min-height: 290px;">
+                <div class="box-contacts-body">
+                  <div class="box-contacts-icon fl-bigmug-line-cellphone55"></div>
+                  <div class="box-contacts-decor"></div>
+                  <p class="box-contacts-link"><a href="tel:#">Accounting and <br> Bookkeeping</a></p>
+                 
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-3">
+              <article class="box-contacts" style="min-height: 290px;">
+                <div class="box-contacts-body">
+                  <div class="box-contacts-icon fa-brands fa-linkedin"></div>
+                  <div class="box-contacts-decor"></div>
+                  <p class="box-contacts-link"><a href="#">Recruitment</a></p>
+                </div>
+              </article>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-3">
+              <article class="box-contacts" style="min-height: 290px;">
+                <div class="box-contacts-body">
+                  <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
+                  <div class="box-contacts-decor"></div>
+                  <p class="box-contacts-link"><a href="mailto:#">Social Media <br> Content Management</a></p>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </section>
-      <br>
-      <br>
-      <!-- Contact Form-->
-     
+
+       <!-- You dream — we embody-->
+       <section class="section section-sm bg-default text-md-left">
+        <div class="container">
+          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
+            <div class="col-lg-6 col-xl-5 wow fadeInLeft">
+              <h2>BPO Solutions</h2>
+           
+              <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6" style="width: 45rem;">
+        
+                <ul class="nav nav-tabs" >
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1" data-toggle="tab">01</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2" data-toggle="tab">02</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3" data-toggle="tab">03</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">04</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">05</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">06</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">07</a></li>
+                </ul>
+             
+                <div class="tab-content" style="width: 45rem; height: 15rem;">
+                  <div class="tab-pane fade show active" id="tabs-6-1">
+                    <h5 class="font-weight-normal">Customer Service</h5>
+                    <p><span class="boldText">Voice:</span> Core Support Hub answers calls and queries from our customers which can range from product queries and orders to technical support.</p>
+                    <p><Span class="boldText">Chat:</Span> Whether through your social media pages or through your website, our team members can provide customer service support to your customers via chat.</p>
+                    <p><span class="boldText">Email:</span> Our team members can deliver customer service via email channel.</p>
+                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Learn More</a></div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-6-2">
+                    <h5 class="font-weight-normal">Sales and Marketing</h5>
+                    <p><span class="boldText">Sales:</span> Our sales services includes lead generation, appointment setting, sales enablement and support, inbound sales, customer retention, telesales among other services.</p>
+                    <p><Span class="boldText">Marketing:</Span> We also provide a variety of marketing services including telemarketing, email and chat campaigns, social media content and marketing campaigns.</p>                    
+                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Learn More</a></div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-6-3">
+                    <h5 class="font-weight-normal">Virtual Assistants</h5>
+                    <p>At Core Support Hub, customer satisfaction is paramount. Our dedicated customer support team ensures prompt assistance, effective communication, and resolution of issues, ensuring a seamless experience for our clients.</p>
+                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Learn More</a></div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-6-4">
+                    <h5 class="font-weight-normal">Strategic Consulting</h5>
+                    <p>Leveraging industry expertise and market insights, our strategic consulting services help clients navigate complexities, identify growth opportunities, and develop robust strategies to achieve their business objectives.</p>
+                    <div class="group-sm group-middle"><a class="button button-secondary button-pipaluk" href="#modalCta" data-toggle="modal">Get in touch</a><a class="button button-default-outline button-wapasha" href="#">Learn More</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <br><br><br>
+
+
 
       <!-- Bottom Banner-->
       
@@ -255,61 +245,6 @@
           </div>
         </section>
       </section>-->
-
-      <!-- You dream — we embody-->
-      <section class="section section-sm bg-default text-md-left">
-        <div class="container">
-          <div class="row row-50 align-items-center justify-content-center justify-content-xl-between">
-            <div class="col-lg-6 col-xl-5 wow fadeInLeft">
-              <h2>BPO Solutions</h2>
-           
-              <div class="tabs-custom tabs-horizontal tabs-line tabs-line-big text-center text-md-left" id="tabs-6" style="width: 45rem;">
-        
-                <ul class="nav nav-tabs" >
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big active" href="#tabs-6-1" data-toggle="tab">01</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-2" data-toggle="tab">02</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-3" data-toggle="tab">03</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-4" data-toggle="tab">04</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-5" data-toggle="tab">05</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-6" data-toggle="tab">06</a></li>
-                  <li class="nav-item" role="presentation"><a class="nav-link nav-link-big" href="#tabs-6-7" data-toggle="tab">07</a></li>
-                </ul>
-             
-                <div class="tab-content" style="width: 45rem; height: 15rem;">
-                  <div class="tab-pane fade show active" id="tabs-6-1">
-                    <h5 class="font-weight-normal">Customer Service</h5>
-                    <p><span class="boldText">Voice:</span> Core Support Hub answers calls and queries from our customers which can range from product queries and orders to technical support.</p>
-                    <p><Span class="boldText">Chat:</Span> Whether through your social media pages or through your website, our team members can provide customer service support to your customers via chat.</p>
-                    <p><span class="boldText">Email:</span> Our team members can deliver customer service via email channel.</p>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-2">
-                    <h5 class="font-weight-normal">Sales and Marketing</h5>
-                    <p><span class="boldText">Sales:</span> Our sales services includes lead generation, appointment setting, sales enablement and support, inbound sales, customer retention, telesales among other services.</p>
-                    <p><Span class="boldText">Marketing:</Span> We also provide a variety of marketing services including telemarketing, email and chat campaigns, social media content and marketing campaigns.</p>                    
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-3">
-                    <h5 class="font-weight-normal">Virtual Assistants</h5>
-                    <p>We offer a host of remote assistance which includes the following:</p><br>
-                      <ul>
-                        <li><span class="boldText">Administrative Assistants</span></li>
-                        <li><span class="boldText">Remote Executive Assistants</span></li>
-                        <li><span class="boldText">Ad Hoc Researchers</span></li>
-                        <li><span class="boldText">Social Media Assistants</span></li>
-                        <li><span class="boldText">Data Entry</span></li>
-                        <li><span class="boldText">Graphic Design</span></li>
-                      </ul>
-                  </div>
-                  <div class="tab-pane fade" id="tabs-6-4">
-                    <h5 class="font-weight-normal">Back Office Processing</h5>
-                    <p>At Core Support Hub, we provide back-office processing work for you that can range from the most basic such as clerical work and data entry to more complex work such as data analysis, product tracking and management, computation-based work and project management. We can analyze and design a business process for you that can generate more value for your business.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> <br><br><br>
 
       <!-- Page Footer-->
       <footer class="section section-fluid footer-minimal context-dark">
@@ -396,6 +331,7 @@
     <!-- Javascript-->
     <script src="../../js/core.min.js"></script>
     <script src="../../js/script.js"></script>
+    <script src="../../js/custom_funct.js"></script>
     <!-- coded by Himic-->
   </body>
 </html>
