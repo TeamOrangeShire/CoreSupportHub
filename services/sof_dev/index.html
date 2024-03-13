@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="en" style="scroll-behavior: smooth;">
   <head>
     <title>Core Support Hub</title>
     <meta name="format-detection" content="telephone=no">
@@ -70,15 +70,15 @@
 
       <!-- Cta-->
       <section class="section section-fluid bg-default" style="height: 650px;">
-        <div class="parallax-container" data-parallax-img="../../images/cs_asset.jpg" style="height: 650px;">
+        <div class="parallax-container" data-parallax-img="../../images/bgweb.jpg" style="height: 650px;">
           <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
             <div class="container">
               <div class="justify-content-end text-left">
                 <div class="col-sm-7">
                   <h3 class="wow fadeInLeft">Software Development</h3>
-                  <p>Core Support Hub is a startup outsourcer founded by industry veterans in business process outsourcing, financial services, manufacturing, technology services and the academe. We believe that outsourcing should return to its core objective which is to be a true extension of the client's business, with a shared purpose and mission.
-                  </p>
-                  <div class="group-sm group-middle group justify-content-end"><a class="button button-white-outline button-ujarak" href="#">Learn More</a></div>
+                  <p class="wow fadeInLeft">
+                    Many businesses rely on ready built software and applications that may not be able to fully satisfy the needs of the business. Often purchases are made without the necessary understanding of what software features are relative to what the needs of the business are and these often leads to buyer’s remorse. Having an expensive software purchased but not fully utilized and not satisfying the needs of the business can be a drain for the business. This is why it is critical for businesses to consider customized software solutions to ensure getting the right fit for the business.</p>
+                  <div class="group-sm group-left group justify-content-end"><a class="button button-white-outline button-ujarak" href="#services">Browse</a></div>
                 </div>
               </div>
             </div>
@@ -125,66 +125,89 @@
           align-items: center;
           justify-content: center;
           text-align: center;
+          border: 2px solid #c7ae6a; /* Add border here */
+          box-sizing: border-box; 
+          padding: 30px;
+          /* Ensure border doesn't increase element size */
         }
       
-       
+        .box-contacts-decor {
+          width: 100%;
+          height: 100%;
+          background-color: #ffffff; /* Ensure the front face covers the image */
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      
+        .box-contacts-decor img {
+          width: 40%; /* Adjust the size as needed */
+          display: block; /* Ensure it's a block-level element */
+          margin: auto; /* Center the image horizontally */
+        }
       
         /* Additional styling for the content on the back */
         .box-contacts-back p {
           margin: 0;
         }
       </style>
+      
+      
       <!-- Contact information-->
-      <section class="section section-sm bg-default">
+      <div style="visibility: false;" id="services"></div>
+      <br>
+      <section class="section section-sm bg-default" >
         <div class="container">
-          <h3>hi</h3>
+         <h3>Software Development Services Offered</h3>
+         <h5> We design, build and customize software and applications for your business. Software can improve overall performance for your operations, finance, HR, inventory or even for your business websites.
+        </h5>
           <div class="row row-30 justify-content-center">
             
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <img src="../../images/appicon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
                   <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
                 </div>
                 <div class="box-contacts-back">
-                  <p>This is the back of the div with a message.</p>
+                  <p>We develop custom-built apps for your business, designed to make your processes and organizations more efficient and cost effective. Solutions can range from basic complexity to the more complex applications for business.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <img src="../../images/custom_web.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
+                  <p class="box-contacts-link">Custom Software Development</p>
                 </div>
                 <div class="box-contacts-back">
-                  <p>This is the back of the div with a message.</p>
+                  <p>We build for our client the more complex software such as custom Enterprise Resource Planning, Customer Relationship Management, Supply Chain Management, Human Resource Information Systems and other complex software for businesses.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <img src="../../images/webde.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">Web Design and <br>Development</a></p>
                 </div>
                 <div class="box-contacts-back">
-                  <p>This is the back of the div with a message.</p>
+                  <p>We also design and build websites for you from the basic branded website to the more complex eCommerce and CX interactive websites for your business.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
+                  <img src="../../images/starticon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">Start Ups</a></p>
                 </div>
                 <div class="box-contacts-back">
-                  <p>This is the back of the div with a message.dasdadkjhaldj hlah dalsdhasdlkjhadl hdlahdakljdh ad jahdlkahdlahdal dhadhlkjdahldkjh</p>
+                  <p>As a startup, Core Support Hub helps startups build their Minimum Viable Product. We partner with you to build your software MVP and help launch your product or business to market.</p>
                 </div>
               </article>
             </div>
