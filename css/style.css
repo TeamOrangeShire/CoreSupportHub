@@ -12479,16 +12479,42 @@ html:not(.lt-ie10) .not-animated {
 	text-decoration: none;
 	border-radius: 50%;
 	transition: .45s all ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	transform: translate3d(0, 100px, 0);
 }
 
-.service-bpo{
+.service-cons{
 	right: 13px;
-	bottom: 200px;
+	bottom: 350px;
 }
 
+.service-soft-dev{
+	right: 13px;
+	bottom: 410px;
+}
 
+.service-it{
+	right: 13px;
+	bottom: 470px;
+}
+.service-bpo{
+	right: 13px;
+	bottom: 530px;
+}
+.nav-ui-service:hover {
+	color: #ffffff;
+	background: #111111;
+	text-decoration: none;
+}
+.nav-ui-service:focus {
+	color: #ffffff;
+}
 
+.nav-ui-service.active {
+	transform: translate3d(0, 0, 0);
+}
 .ui-to-top:hover {
 	color: #ffffff;
 	background: #111111;
