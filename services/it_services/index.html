@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="wide wow-animation" lang="en">
+<html class="wide wow-animation" lang="en" style="scroll-behavior: smooth;">
   <head>
     <title>Core Support Hub</title>
     <meta name="format-detection" content="telephone=no">
@@ -14,6 +14,49 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/animation.css">
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  
+       
+    <style>
+      .col-sm-8 {
+        perspective: 1000px;
+      }
+    
+      .box-contacts {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: transform 0.8s;
+      }
+    
+      .col-sm-8:hover .box-contacts {
+        transform: rotateY(180deg);
+      }
+    
+      .box-contacts-body, .box-contacts-back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+      }
+    
+      .box-contacts-back {
+        transform: rotateY(180deg);
+        background-color: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+    
+     
+    
+      /* Additional styling for the content on the back */
+      .box-contacts-back p {
+        margin: 0;
+      }
+    </style>
+  
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -70,15 +113,25 @@
 
       <!-- Cta-->
       <section class="section section-fluid bg-default" style="height: 650px;">
-        <div class="parallax-container" data-parallax-img="../../images/cs_asset.jpg" style="height: 650px;">
+        <div class="parallax-container" data-parallax-img="../../images/itbgphoto.jpg" style="height: 650px;">
           <div class="parallax-content section-xl context-dark bg-overlay-68 bg-mobile-overlay">
             <div class="container">
               <div class="justify-content-end text-left">
                 <div class="col-sm-7">
                   <h3 class="wow fadeInLeft">IT Managed Services</h3>
-                  <p>Core Support Hub provides managed services for your IT needs whether it's for providing remote desktop support for your computers and system administration to remotely monitoring your network to ensure your connectivity is performing as expected.
+                  <p class="wow fadeInRight">
+                    With an ever-growing complexity of technology and innovation many businesses find it hard to focus on
+                    their core business with divided attention on technology infrastructure. Cost of ownership is also ever
+                    increasing. Core Support Hub’s IT Managed Services offering is where we provide the expertise and
+                    experience to help businesses manage their IT functions so they can focus on their core businesses.
+                    <br>
+                    We provide a suite of IT Managed Services offerings which includes, but not limited to, client system
+                    infrastructure management which may include providing desktop support, user access administration,
+                    equipment monitoring and server administration. We also provide support for cloud services
+                    infrastructure as well as connectivity and network monitoring and management. With Core Support Hub
+                    managing your IT infrastructure, you will have the bandwidth to focus on your core business.
                   </p>
-                  <div class="group-sm group-middle group justify-content-end"><a class="button button-white-outline button-ujarak" href="#">Learn More</a></div>
+                  <div class="group-sm group-left group justify-content-end"><a class="button button-white-outline button-ujarak" href="#srvcs">Browse</a></div>
                 </div>
               </div>
             </div>
@@ -86,63 +139,65 @@
         </div>
       </section>
 
-      <!-- content start -->
-
-
-
-
-      <!-- content end -->
-      <!-- Meet The Team-->
-     
-
       <!-- Contact information-->
       <section class="section section-sm bg-default">
-        <div class="container">
-          <h2> We Offer </h2>
-          <h5>Introducing our IT Managed Services, delivering comprehensive solutions to enhance your digital infrastructure. </h5>
-
+        <div id="srvcs" class="container">
+          <h2> IT Managed Services Offered</h2>
+          <p>
+            Core Support Hub provides managed services for your IT needs whether it's for providing remote desktop support for your computers and system administration to remotely monitoring your network to ensure your connectivity is performing as expected.
+          </p>
           <div class="row row-30 justify-content-center">
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/itsuite_icon.png" alt=""style="width:40%;">
+                  <img src="../../images/itsuite_icon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#"> IT Managed Services Suite</a></p>
-                 
+                  <p class="box-contacts-link"><a href="tel:#">IT Managed Services Suite</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>This is the back of the div with a message.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/itcloud_icon.png" alt=""style="width:40%;">
+                  <img src="../../images/itcloud_icon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="#">Managed Cloud Services</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">Managed Cloud Services</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>This is the back of the div with a message.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/itdesk_icon.png" alt=""style="width:40%;">
+                  <img src="../../images/itdesk_icon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <!-- <p class="box-contacts-link"><a href="mailto:#">mail@demolink.org</a></p> -->
-                  <p class="box-contacts-link"><a href="mailto:#">Desktop Support</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">Desktop Support</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>Client System Infrastructure Management: Managing your system infrastructure which includes desktop, laptops and servers.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/itnet_icon.png" alt=""style="width:40%;">
+                  <img src="../../images/itnet_icon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <!-- <p class="box-contacts-link"><a href="mailto:#">mail@demolink.org</a></p> -->
-                  <p class="box-contacts-link"><a href="mailto:#">Connectivity and Network</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">connectivity & Network</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>Client Network Infrastructure Management: Managing your network infrastructure which includes switches, routers, firewalls and LAN and WAN connections. This also includes network monitoring and proactive actions for potential network issues.</p>
                 </div>
               </article>
             </div>
           </div>
-          
+          <!-- grid row  -->
+         
         </div>
       </section>
 
