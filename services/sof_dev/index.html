@@ -94,7 +94,46 @@
       <!-- content end -->
       <!-- Meet The Team-->
      
-
+      <style>
+        .col-sm-8 {
+          perspective: 1000px;
+        }
+      
+        .box-contacts {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          transform-style: preserve-3d;
+          transition: transform 0.8s;
+        }
+      
+        .col-sm-8:hover .box-contacts {
+          transform: rotateY(180deg);
+        }
+      
+        .box-contacts-body, .box-contacts-back {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          backface-visibility: hidden;
+        }
+      
+        .box-contacts-back {
+          transform: rotateY(180deg);
+          background-color: #f0f0f0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+        }
+      
+       
+      
+        /* Additional styling for the content on the back */
+        .box-contacts-back p {
+          margin: 0;
+        }
+      </style>
       <!-- Contact information-->
       <section class="section section-sm bg-default">
         <div class="container">
@@ -102,45 +141,54 @@
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/app_d_icon.png" alt=""style="width:40%;">
+                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
                   <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
-                 
+                </div>
+                <div class="box-contacts-back">
+                  <p>This is the back of the div with a message.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fa-brands fa-linkedin"></div>
+                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="#">Custom Software Development</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>This is the back of the div with a message.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
+                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link">Web Design and <br>Development</p>
-                 
+                  <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>This is the back of the div with a message.</p>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <div class="box-contacts-icon fl-bigmug-line-chat55"></div>
+                  <img src="../../images/cus.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="mailto:#">Start Ups</a></p>
-                 
+                  <p class="box-contacts-link"><a href="tel:#">App Development</a></p>
+                </div>
+                <div class="box-contacts-back">
+                  <p>This is the back of the div with a message.</p>
                 </div>
               </article>
             </div>
           </div>
           <!-- grid row  -->
-        
+         
         </div>
       </section>
 
