@@ -12464,6 +12464,57 @@ html:not(.lt-ie10) .not-animated {
 	transform: translate3d(0, 100px, 0);
 }
 
+.nav-ui-service{
+	position: fixed;
+	z-index: 100;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	background-color: #c7ae6a;
+	line-height: 38px;
+	color: #ffffff;
+	background: #c7ae6a;
+	overflow: hidden;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	transition: .45s all ease-in-out;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translate3d(0, 100px, 0);
+}
+
+.service-cons{
+	right: 13px;
+	bottom: 350px;
+}
+
+.service-soft-dev{
+	right: 13px;
+	bottom: 410px;
+}
+
+.service-it{
+	right: 13px;
+	bottom: 470px;
+}
+.service-bpo{
+	right: 13px;
+	bottom: 530px;
+}
+.nav-ui-service:hover {
+	color: #ffffff;
+	background: #111111;
+	text-decoration: none;
+}
+.nav-ui-service:focus {
+	color: #ffffff;
+}
+
+.nav-ui-service.active {
+	transform: translate3d(0, 0, 0);
+}
 .ui-to-top:hover {
 	color: #ffffff;
 	background: #111111;
