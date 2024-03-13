@@ -114,13 +114,3 @@
   .learn_more:hover::after, .learn_more:hover::before {
     width: 100%;
   }
-
-  .linkedIn{
-    width: 10%;
-    height: 10%;
-    z-index: 1000;
-    top: 10;
-    position: relative;
-    bottom: 10;
-
-  }
