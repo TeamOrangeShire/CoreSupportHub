@@ -12529,6 +12529,28 @@ html:not(.lt-ie10) .not-animated {
 	transform: translate3d(0, 0, 0);
 }
 
+.side-animate-bpo{
+	animation: slideSide .7s linear ;
+}
+.side-animate-it{
+	animation: slideSide .7s linear ;
+}
+.side-animate-softdev{
+	animation: slideSide .7s linear;
+}
+.side-animate-consult{
+	animation: slideSide .7s linear;
+}
+@keyframes slideSide {
+	0%{
+		opacity: 0;
+		right: 0;
+	}
+	100%{
+		opacity: 1;
+		right: 13;
+	}
+}
 html.mobile .ui-to-top,
 html.tablet .ui-to-top {
 	display: none !important;

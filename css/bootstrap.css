@@ -4439,7 +4439,7 @@ button.close {
 	align-items: center;
 	justify-content: center;
 	width: 15%;
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 	opacity: 0.5;
 }
@@ -4447,7 +4447,7 @@ button.close {
 .carousel-control-prev:focus, .carousel-control-prev:hover,
 .carousel-control-next:focus,
 .carousel-control-next:hover {
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	outline: 0;
 	opacity: .9;
