@@ -156,7 +156,9 @@
     visibility: visible;
     pointer-events: auto;
   }
-  
+  .learn_more:hover{
+    color: #22252a;
+  }
   .icon {
     text-decoration: none;
     color: #fff;
