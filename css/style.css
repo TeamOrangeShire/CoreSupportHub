@@ -255,7 +255,7 @@ a, a:focus, a:active {
 }
 
 a:hover {
-	color: #1a4eff;
+	color: #505762;
 }
 
 a[href*='tel'], a[href*='mailto'] {
@@ -263,11 +263,11 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-hover {
-	color: #1a4eff;
+	color: #505762;
 }
 
 .link-press {
-	color: #1a4eff;
+	color: #505762;
 }
 
 .privacy-link {
