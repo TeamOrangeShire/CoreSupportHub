@@ -12490,7 +12490,9 @@ html:not(.lt-ie10) .not-animated {
 	bottom: 380px;
 }
 
-
+.w-a-u{
+	font-size: 1.3rem;
+}
 .service-it{
 	right: 13px;
 	bottom: 440px;
