@@ -12487,21 +12487,17 @@ html:not(.lt-ie10) .not-animated {
 
 .service-cons{
 	right: 13px;
-	bottom: 350px;
+	bottom: 380px;
 }
 
-.service-soft-dev{
-	right: 13px;
-	bottom: 410px;
-}
 
 .service-it{
 	right: 13px;
-	bottom: 470px;
+	bottom: 440px;
 }
 .service-bpo{
 	right: 13px;
-	bottom: 530px;
+	bottom: 500px;
 }
 .nav-ui-service:hover {
 	color: #ffffff;

@@ -20,7 +20,10 @@
       .col-sm-8 {
         perspective: 1000px;
       }
-    
+      ul{
+      list-style-type: disc; /* Change the bullet style */
+    }
+   
       .box-contacts {
         width: 100%;
         height: 100%;
@@ -44,9 +47,10 @@
         transform: rotateY(180deg);
         background-color: #f0f0f0;
         display: flex;
+        text-align: left;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center;
         border: 2px solid #c7ae6a;
         box-sizing: border-box;
         padding: 30px;
@@ -121,18 +125,9 @@
             <div class="container">
               <div class="justify-content-end text-left">
                 <div class="col-sm-7">
-                  <h3 class="wow fadeInLeft">IT Managed Services</h3>
+                  <h3 class="wow fadeInLeft">Technology Outsourcing</h3>
                   <p class="wow fadeInRight">
-                    With an ever-growing complexity of technology and innovation many businesses find it hard to focus on
-                    their core business with divided attention on technology infrastructure. Cost of ownership is also ever
-                    increasing. Core Support Hub’s IT Managed Services offering is where we provide the expertise and
-                    experience to help businesses manage their IT functions so they can focus on their core businesses.
-                    <br> <br>
-                    We provide a suite of IT Managed Services offerings which includes, but not limited to, client system
-                    infrastructure management which may include providing desktop support, user access administration,
-                    equipment monitoring and server administration. We also provide support for cloud services
-                    infrastructure as well as connectivity and network monitoring and management. With Core Support Hub
-                    managing your IT infrastructure, you will have the bandwidth to focus on your core business.
+                    Technology is a critical aspect of any organization and business. Technology enables the organization through facilitating real-time information sharing across functions and groups, creating efficiencies through automation, providing the necessary tools to unlock value ensuring the right delivery of services and products to customers. Having the right partner is critical for technology outsourcing to be successful.
                   </p>
                   <div class="group-sm group-left group justify-content-end"><a class="button button-white-outline button-ujarak" href="#srvcs">See More</a></div>
                 </div>
@@ -155,39 +150,30 @@
                 <div class="box-contacts-body">
                   <img src="../../images/itcloud_icon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Managed Cloud Services</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">IT Managed Services</a></p>
                 </div>
                 <div class="box-contacts-back">
-                  <p  style="text-align: left;">
-                    We provide management and support services for clients' cloud infrastructure which includes network systems, cloud-based database and storage, and a variety of cloud-based software and tools.
+                  <p>
+                   Core Support Hub provides managed services for your IT needs whether its for providing remote desktop support for your computers and system administration to remotely monitoring your network to ensure your connectivity is performing as expected.
                   </p>
+                  <a class="button button-secondary button-pipaluk" href="#it_managed_services" data-toggle="modal" >See More</a>
                 </div>
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-4">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/itdesk_icon.png" alt=""style="width:40%; padding-top:60px;">
+                  <img src="../../images/custom_web.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Desktop Support</a></p>
+                  <p class="box-contacts-link"><a href="tel:#">Software Development</a></p>
                 </div>
                 <div class="box-contacts-back">
-                  <p style="text-align: left;">Client System Infrastructure Management: Managing your system infrastructure which includes desktop, laptops and servers.</p>
+                  <p style="text-align: left;">We design, build and customize software and applications for your business. Software can improve overall performance for your operations, finance, HR, inventory or even your business websites.</p>
+                  <a class="button button-secondary button-pipaluk" href="#software_dev" data-toggle="modal" >See More</a>
                 </div>
               </article>
             </div>
-            <div class="col-sm-8 col-md-6 col-lg-4">
-              <article class="box-contacts">
-                <div class="box-contacts-body">
-                  <img src="../../images/itnet_icon.png" alt=""style="width:40%; padding-top:60px;">
-                  <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">connectivity & Network</a></p>
-                </div>
-                <div class="box-contacts-back">
-                  <p style="text-align: left;">Client Network Infrastructure Management: Managing your network infrastructure which includes switches, routers, firewalls and LAN and WAN connections. This also includes network monitoring and proactive actions for potential network issues.</p>
-                </div>
-              </article>
-            </div>
+        
           </div>
           <!-- grid row  -->
          
@@ -219,8 +205,7 @@
               <ul class="footer-list-category-2">
            
                 <li><a href="../bpo/">Business Process Outsourcing</a></li>
-                <li><a href="../it_services">IT Managed Service</a></li>
-                <li><a href="../sof_dev">Software Development</a></li>
+                <li><a href="../technology/">Technology Outsourcing</a></li>
                 <li><a href="../consulting">Consulting</a></li>
               </ul>
             </div>
@@ -249,52 +234,65 @@
         </div>
       </footer>
 
-      <div class="modal fade" id="modalCta" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal fade" id="it_managed_services" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4>Contact Us</h4>
+              <h4>IT Managed Services - Service Offered</h4>
               <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
             </div>
             <div class="modal-body">
-              <form class="rd-form rd-form-variant-2 rd-mailform" data-form-output="form-output-global" data-form-type="contact-modal" method="post" action="bat/rd-mailform.php">
-                <div class="row row-14 gutters-14">
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-name" type="text" name="name" data-constraints="@Required">
-                      <label class="form-label" for="contact-modal-name">Your Name</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-email" type="email" name="email" data-constraints="@Email @Required">
-                      <label class="form-label" for="contact-modal-email">E-mail</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <input class="form-input" id="contact-modal-phone" type="text" name="phone" data-constraints="@Numeric">
-                      <label class="form-label" for="contact-modal-phone">Phone</label>
-                    </div>
-                  </div>
-                  <div class="col-12">
-                    <div class="form-wrap">
-                      <label class="form-label" for="contact-modal-message">Message</label>
-                      <textarea class="form-input textarea-lg" id="contact-modal-message" name="message" data-constraints="@Required"></textarea>
-                    </div>
-                  </div>
-                </div>
-                <button class="button button-primary button-pipaluk" type="submit">Send Message</button>
-              </form>
+                <h6>1. Network Designs and Solution</h6>
+              <ul>
+                <li>End User Services</li>
+                <li>Infosecurity Services</li>
+                <li>Managed Wireless and Mobile Computing</li>
+              </ul>
+              <br>
+              <h6>2. VOIP Design & Solutions</h6>
+              <ul>
+                <li>Managed Communication Services</li>
+              </ul>
+              <br>
+              <h6>3. Technology Support</h6>
+              <ul>
+                <li>Network Support</li>
+                <li>VoIP Support</li>
+                <li>Managed IT Staff Support</li>
+              </ul><br>
+              <h6>4. Managed Print Services</h6>
             </div>
           </div>
         </div>
       </div>
     </div>
+ 
+    <div class="modal fade" id="software_dev" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content" style="text-align: center;">
+          <div class="modal-header">
+            <h4>Software Development - Service Offered</h4>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body">
+              <h6>1.App Development</h6>
+        
+            <br>
+            <h6>2. Custom Software Development</h6>
+          
+            <br>
+            <h6>3. Website Design and Development</h6>
+            <br>
+            <h6>4. Startup MVP (Minimum Viable Product)</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
     <!-- Global Mailform Output-->
     <a href="../bpo/" title="Business Process Outsourcing" class="nav-ui-service service-bpo side-animate-bpo"><i class="fa-solid fa-briefcase"></i></a>
-    <a href="../it_services/" title="IT Service Management" class="nav-ui-service service-it  side-animate-it" ><i class="fa-solid fa-users-gear"></i></a>
-    <a href="../sof_dev/" title="Software Development" class="nav-ui-service service-soft-dev  side-animate-softdev"><i class="fa-solid fa-laptop-code" ></i></a>
+    <a href="../technology/" title="Technology Outsourcing" class="nav-ui-service service-it  side-animate-it" ><i class="fa-solid fa-users-gear"></i></a>
     <a href="../consulting/" title="Consulting" class="nav-ui-service service-cons  side-animate-consult" ><i class="fa-solid fa-lightbulb"></i></a>
     <div class="snackbars" id="form-output-global"></div>
     <!-- Javascript-->
