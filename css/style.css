@@ -12491,7 +12491,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .w-a-u{
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 .service-it{
 	right: 13px;
@@ -12713,7 +12713,17 @@ html.tablet .ui-to-top {
 	border-radius: 50%;
 	transition: .3s all ease;
 }
-
+.w-a-u-text{
+	margin-top: -90px;
+}
+@media(max-width:576px){
+	.w-a-u-text{ 
+      border: 1px solid black;
+	  padding: 10px;
+	  width: 90%;
+	  margin-top: 0;
+	}
+}
 .rd-navbar-collapse-toggle span:before, .rd-navbar-collapse-toggle span:after {
 	content: '';
 }
