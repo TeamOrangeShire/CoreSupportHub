@@ -93,50 +93,9 @@
 
       <!-- content end -->
       <!-- Meet The Team-->
-     
-      <style>
-        .col-sm-8 {
-          perspective: 1000px;
-        }
-      
-        .box-contacts {
-          width: 100%;
-          height: 100%;
-          position: relative;
-          transform-style: preserve-3d;
-          transition: transform 0.8s;
-        }
-      
-        .col-sm-8:hover .box-contacts {
-          transform: rotateY(180deg);
-        }
-      
-        .box-contacts-body, .box-contacts-back {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-         
-          backface-visibility: hidden;
-        }
-      
-        .box-contacts-back {
-          transform: rotateY(180deg);
-          background-color: #f0f0f0;
-          display: flex;
-          align-items: center;
-          padding: 10px;
-          border: 2px solid #c7ae6a;
-          justify-content: center;
-          text-align: center;
-        }
-      
-       
-      
-        /* Additional styling for the content on the back */
-      
-      </style>
-      <!-- Contact information-->
-      <section class="section section-sm bg-default" id="offers">
+     <div id="offers" style="width: 100%; height: 50px;"></div>
+     <!-- Contact information-->
+      <section class="section section-sm bg-default" >
         <div class="container">
           <h3>What do we do for Consulting</h3>
           <p>Our team of analysts and project managers will partner with your organization to create solutions for the following:
@@ -148,12 +107,9 @@
                 <div class="box-contacts-body">
                   <img src="../../images/Bus_process.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Business Process</a></p>
+                  <p class="box-contacts-link"><a href="#business-process">Business Process</a></p>
                 </div>
-                <div class="box-contacts-back">
-                  <p>We partner with your teams to design business processes, reengineer workflows, provide insights and recommendations to unlock value within your business.
-                  </p>
-                </div>
+             
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
@@ -161,25 +117,19 @@
                 <div class="box-contacts-body">
                   <img src="../../images/technology.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Technology</a></p>
+                  <p class="box-contacts-link"><a href="#technology">Technology</a></p>
                 </div>
-                <div class="box-contacts-back">
-                  <p>We team up with your organization to craft tailored software solutions that streamline operations and support your IT operations and support your IT needs, from strategic planning to customer delivery and back office processing.
-                  </p>
-                </div>
+              
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-3">
               <article class="box-contacts">
                 <div class="box-contacts-body">
-                  <img src="../../images/analytics.png" alt=""style="width:40%; padding-top:60px;">
+                  <img src="../../images/analytics.png" alt=""style="width:40%; padding-top:70px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Business Insights</a></p>
+                  <p class="box-contacts-link" style="margin-top: 30px;"><a href="#business-insights">Business Insights</a></p>
                 </div>
-                <div class="box-contacts-back">
-                  <p>We take charge of analyzing large volumes of data for you, to uncover insights that can help your organiztions make informed business decisions. This service includes descriptive, diagnostic, predective, and prescriptive analytics, visualizing your data for an enhanced understanding of the trend and efficient reporting.
-                  </p>
-                </div>
+              
               </article>
             </div>
          
@@ -192,6 +142,72 @@
     
       <!-- Bottom Banner-->
       
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="bg-light rounded p-3" >
+              <div style="width: 100%; height: 50px;" id="business-process"></div>
+                <div class="bg-white rounded p-4">
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeIn">
+                            <img src="../../images/process.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                            <div class="mb-4">
+                                <h3 class="mb-3" >BUSINESS PROCESS</h3>
+                               
+                                <p>We partner with your teams to design business
+                                  processes, reengineer workflows, provide insights
+                                  and recommendations to unlock value within your
+                                  business.</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 100%; height: 50px;" id="technology"></div>
+                <div class="bg-white rounded p-4" >
+                  <div class="row g-5 align-items-center">
+                      <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                          <div class="mb-4">
+                              <h3 class="mb-3" >TECHNOLOGY</h3>
+                              <p>We team up with your organization to craft
+                                tailored software solutions that streamline
+                                operations and support your IT needs, from
+                                strategic planning to customer delivery and
+                                back-office processes.</p>
+                           
+                          </div>
+                      </div>
+                      <div class="col-lg-6 wow fadeIn">
+                        <img src="../../images/software2.jpeg" alt="">
+                      </div>
+                  </div>
+                </div>
+                <div style="width: 100%; height: 50px;" id="business-insights"></div>
+                <div class="bg-white rounded p-4" >
+                  <div class="row g-5 align-items-center">
+                      <div class="col-lg-6 wow fadeIn">
+                          <img src="../../images/bus_insights.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                          <div class="mb-4">
+                              <h3 class="mb-3">BUSINESS INSIGHTS</h3>
+                            
+                           <p>We work with your teams to analyze all available
+                            and relevant information to get timely, reliable and
+                            actionable insights about your business and the
+                            market. This service includes descriptive,
+                            diagnostic, predictive, and prescriptive analytics,
+                            visualizing your data for an enhanced
+                            understanding of the trend and efficient reporting.</p>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+    
+              
+            </div>
+        </div>
+    </div>
 
       <!-- RD Google Map-->
       <!--<section class="section section-fluid">

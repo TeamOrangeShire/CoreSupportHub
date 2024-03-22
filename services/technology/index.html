@@ -16,54 +16,7 @@
     <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
   
        
-    <style>
-      .col-sm-8 {
-        perspective: 1000px;
-      }
-      ul{
-      list-style-type: disc; /* Change the bullet style */
-    }
    
-      .box-contacts {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: transform 0.8s;
-      }
-    
-      .col-sm-8:hover .box-contacts {
-        transform: rotateY(180deg);
-      }
-    
-      .box-contacts-body, .box-contacts-back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        backface-visibility: hidden;
-      }
-    
-      .box-contacts-back {
-        transform: rotateY(180deg);
-        background-color: #f0f0f0;
-        display: flex;
-        text-align: left;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border: 2px solid #c7ae6a;
-        box-sizing: border-box;
-        padding: 30px;
-      }
-    
-     
-    
-      /* Additional styling for the content on the back */
-      .box-contacts-back p {
-        margin: 0;
-      }
-    </style>
-  
   </head>
   <body>
     <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -138,8 +91,9 @@
       </section>
 
       <!-- Contact information-->
+      <div style="width: 100%; height: 50px;" id="srvcs"></div>
       <section class="section section-sm bg-default">
-        <div id="srvcs" class="container">
+        <div class="container">
           <h2> IT Services Offered</h2>
           <p >
             Core Support Hub provides managed services for your IT needs whether it's for providing remote desktop support for your computers and system administration to remotely monitoring your network to ensure your connectivity is performing as expected.
@@ -150,14 +104,9 @@
                 <div class="box-contacts-body">
                   <img src="../../images/itcloud_icon.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">IT Managed Services</a></p>
+                  <p class="box-contacts-link"><a href="#it-managed-services">IT Managed Services</a></p>
                 </div>
-                <div class="box-contacts-back">
-                  <p>
-                   Core Support Hub provides managed services for your IT needs whether its for providing remote desktop support for your computers and system administration to remotely monitoring your network to ensure your connectivity is performing as expected.
-                  </p>
-                  <a class="button button-secondary button-pipaluk" href="#it_managed_services" data-toggle="modal" >See More</a>
-                </div>
+              
               </article>
             </div>
             <div class="col-sm-8 col-md-6 col-lg-4">
@@ -165,12 +114,9 @@
                 <div class="box-contacts-body">
                   <img src="../../images/custom_web.png" alt=""style="width:40%; padding-top:60px;">
                   <div class="box-contacts-decor"></div>
-                  <p class="box-contacts-link"><a href="tel:#">Software Development</a></p>
+                  <p class="box-contacts-link"><a href="#software-development">Software Development</a></p>
                 </div>
-                <div class="box-contacts-back">
-                  <p style="text-align: left;">We design, build and customize software and applications for your business. Software can improve overall performance for your operations, finance, HR, inventory or even your business websites.</p>
-                  <a class="button button-secondary button-pipaluk" href="#software_dev" data-toggle="modal" >See More</a>
-                </div>
+              
               </article>
             </div>
         
@@ -180,6 +126,144 @@
         </div>
       </section>
 
+
+      <div style="width: 100%; height: 50px;"  id="it-managed-services"></div>
+
+      <div class="container-xxl py-5">
+        <div class="container">
+            <div class="bg-light rounded p-3" >
+              <h3 class="wow fadeInLeft">IT Managed Services</h3>
+                <div class="bg-white rounded p-4"id="customer-service">
+                    <div class="row g-5">
+                        <div class="col-lg-6 wow fadeIn">
+                            <img src="../../images/network-design.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                            <div class="mb-4">
+                                <h3 class="mb-3" >Network Design and Solution</h3>
+                                <p><Span class="boldText">End User Services</Span> </p>
+                                <p><span class="boldText">Inforsecurity Services</span> </p>
+                                <p><span class="boldText">Managed Wireless and Mobile Computing</span></p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded p-4" id="sales-and-marketing">
+                  <div class="row g-5 align-items-center">
+                      <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                          <div class="mb-4">
+                              <h3 class="mb-3" >VOIP DESIGN & SOLUTIONS</h3>
+                              <p><span class="boldText">Managed Communication Services</span></p>
+                           
+                          </div>
+                      </div>
+                      <div class="col-lg-6 wow fadeIn">
+                        <img src="../../images/VOIP.jpg" alt="">
+                      </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded p-4" id="virtual-assistants">
+                  <div class="row g-5 align-items-center">
+                      <div class="col-lg-6 wow fadeIn">
+                          <img src="../../images/r_desktop.webp" alt="">
+                      </div>
+                      <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                          <div class="mb-4">
+                              <h3 class="mb-3">TECHNOLOGY SUPPORT</h3>
+                            
+                              <ul>
+                                <li class="boldText">Network Support</li>
+                                <li class="boldText">VoIP Support</li>
+                                <li class="boldText">Managed IT Staff Support</li>
+                                
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="bg-white rounded p-4" id="back-office-processing">
+                  <div class="row g-5 align-items-center">
+                      <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                          <div class="mb-4">
+                              <h3 class="mb-3">MANAGED PRINT SERVICES</h3>
+                              
+                          </div>
+                      </div>
+                      <div class="col-lg-6 wow fadeIn">
+                        <img src="../../images/print.jpg" alt="">
+                      </div>
+                  </div>
+                </div>
+           
+              
+            </div>
+        </div>
+    </div>
+    <div style="width: 100%; height: 50px;"  id="software-development"></div>
+
+
+    <div class="container-xxl py-5">
+      <div class="container">
+          <div class="bg-light rounded p-3" >
+            <h3 class="wow fadeInLeft">Software Development</h3>
+              <div class="bg-white rounded p-4"id="customer-service">
+                  <div class="row g-5">
+                      <div class="col-lg-6 wow fadeIn">
+                          <img src="../../images/app-dev.jpg" alt="">
+                      </div>
+                      <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                          <div class="mb-4">
+                              <h3 class="mb-3" >APP DEVELOPMENT</h3>
+                             
+                            </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="bg-white rounded p-4" id="sales-and-marketing">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                        <div class="mb-4">
+                            <h3 class="mb-3" >CUSTOM SOFTWARE DEVELOPMENT</h3>
+                          
+                         
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn">
+                      <img src="../../images/soft_dev2.jpg" alt="">
+                    </div>
+                </div>
+              </div>
+              <div class="bg-white rounded p-4" id="virtual-assistants">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn">
+                        <img src="../../images/web-dev.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                        <div class="mb-4">
+                            <h3 class="mb-3">WEBSITE DESIGN AND DEVELOPMENT</h3>
+                        
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="bg-white rounded p-4" id="back-office-processing">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" style="text-align: left;">
+                        <div class="mb-4">
+                            <h3 class="mb-3"> STARTUP MVP (MINIMUM VIABLE PRODUCT)</h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn">
+                      <img src="../../images/mvp.jpg" alt="">
+                    </div>
+                </div>
+              </div>
+         
+            
+          </div>
+      </div>
+  </div>
 
       <!-- Bottom Banner-->
       
