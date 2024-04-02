@@ -363,3 +363,7 @@
   height: 40px;
   font-size: 2rem;
   }
+
+  .clickable{
+    cursor: pointer;
+  }

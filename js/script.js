@@ -1450,3 +1450,7 @@
 
 	} );
 }());
+
+function bookmarking(ref){
+	window.location.href = ref;
+}
