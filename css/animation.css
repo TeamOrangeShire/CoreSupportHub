@@ -57,7 +57,9 @@
     flex-direction: column;
     padding: 20px;
     box-sizing: border-box;
-    background: linear-gradient(-45deg, #c7ae6c 0%, #22252a 100% );
+    background: url('../images/service_background.png');
+    background-size: cover;
+    background-position: center;
     opacity: 0;
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
   }
@@ -105,12 +107,14 @@
     content: '';
     width: 0%;
     height: 2px;
-    background: #22252a;
+    background: #c7ae6a;
     display: block;
     transition: 0.5s;
   
   }
-  
+  .learn_more:hover{
+    color: #c7ae6a !important;
+  }
   .learn_more:hover::after, .learn_more:hover::before {
     width: 100%;
   }
