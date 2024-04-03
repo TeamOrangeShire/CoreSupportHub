@@ -1,8 +1,0 @@
-{
-  "useSmtp": true,
-  "host": "coresupporthub.com",
-  "port": 465,
-  "username": "info@coresupporthub.com",
-  "password": "@infoCoreSupport123",
-  "recipientEmail": "rjvblanco.chmsu@gmail.com"
-}
